@@ -1,15 +1,15 @@
-'#DesPYcito'
+`#DesPYcito`
 
 Check it out! DesPYcito is 
 
 ##Hola Todas
-'''
+```
 dime "Hola Todas"
-'''
+```
 
 ##FizzBuzz
 
-'''
+```
 this is how we fizzbuzz n
 
   es i 0
@@ -32,20 +32,20 @@ this is how we fizzbuzz n
 
   favorito verdad
 do it
-'''
+```
 
 ##How to run:
 
 You have to add an alias for it to work.
-'''
+```
 alias de="PATH_TO_DIRECTORY/bin/despycito"
-'''
+```
 
 When you run the program you must type:
 
-'''
+```
 de it.o
-'''
+```
 
 Thus, whatever file you make must be named 'it.o'
 
