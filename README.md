@@ -110,6 +110,18 @@ pasito a pasito
 otra
 ```
 
+####
+To make a loop go slowly (despacito), you can do this:
+
+```
+feat time
+pasito a pasito
+   ...
+   despacito 1
+otra
+```
+This will slow down each loop by 1 second. Make sure you feat time before using despacito to slow it down
+
 #### Breaks
 To exit a loop use the command `termina`. Thus we can write a while loop as follows:
 
