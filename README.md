@@ -88,7 +88,7 @@ desPYcito uses the following notation for assigning variable values:
 es x 1
 ```
 
-You can read this as "The x is 1". The right term can include operators, so `ex x x+1` will assign the value `x + 1` to `x`. 
+This essentially assigns 1 to x, like `x = 1`
 
 You can also use "sube" to add 1 to a value, like this:
 
