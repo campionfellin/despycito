@@ -15,6 +15,7 @@ do it    ::= end of function
 
 
 <es> _x_ _y_   ::=   _x_ = _y_
+<sube> _x_		::= _x_ = _x_ + 1	
 
 
 <pasito a pasito>
