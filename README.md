@@ -1,6 +1,6 @@
 `#DesPYcito`
 
-Check it out! DesPYcito is 
+Check it out! DesPYcito is based on Python, but using lyrics from the song Despacito by Luis Fonsi
 
 ## Hola Todas
 ```
