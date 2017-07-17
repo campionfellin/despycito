@@ -1,0 +1,28 @@
+ast
+
+
+#Despacito  ::= boilerplate
+
+
+<feat> _x_ ::= import _x_
+
+<verdad>   ::= True
+<falso>   ::= False
+
+<this is how we> _x_ args  ::=   def _x_(args):
+
+do it    ::= end of function
+
+
+<es> _x_ _y_   ::=   _x_ = _y_
+
+
+<pasito a pasito>
+  _body_
+<otra> if _cond_
+
+
+<favorito> _x_   ::=   return _x_
+
+<dime> ::= print
+

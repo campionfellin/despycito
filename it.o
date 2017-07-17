@@ -1,0 +1,52 @@
+#Despacito
+
+dime "Hola todas!"
+
+
+this is how we fizzbuzz n
+
+  es i 0
+
+  pasito a pasito
+    if i % 3 == 0 & i % 5 == 0:
+      dime "FizzBuzz"
+    elif i % 3 == 0:
+      dime "Fizz"
+    elif i % 5 == 0:
+      dime "Buzz"
+    else:
+      dime i
+
+    if i >= n:
+      termina
+
+    es i i+1
+    otra
+
+  favorito verdad
+do it
+
+
+this is how we fibonacci n
+
+  es acc1 0
+  es acc2 1
+
+  pasito a pasito
+    es temp acc2
+    es acc2 acc2 + acc1
+    es acc1 temp
+    es n n - 1
+
+    if n < 1: 
+      termina
+  otra
+
+
+  favorito acc1 
+do it
+
+dime fizzbuzz despacito 10
+
+dime fibonacci despacito 10
+
