@@ -2,12 +2,12 @@
 
 Check it out! DesPYcito is 
 
-##Hola Todas
+## Hola Todas
 ```
 dime "Hola Todas"
 ```
 
-##FizzBuzz
+## FizzBuzz
 
 ```
 this is how we fizzbuzz n
@@ -34,7 +34,7 @@ this is how we fizzbuzz n
 do it
 ```
 
-##How to run:
+## How to run:
 
 You have to add an alias for it to work.
 ```
