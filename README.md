@@ -90,6 +90,13 @@ es x 1
 
 You can read this as "The x is 1". The right term can include operators, so `ex x x+1` will assign the value `x + 1` to `x`. 
 
+You can also use "sube" to add 1 to a value, like this:
+
+```
+sube x
+```
+which roughly translates to `x = x + 1`
+
 #### Functions
 Function definitions begin with `this is how we [name] [args]` and are closed with `do it`. To specify the return value, use `favorito [optional value]`. desPYcito does not yet support anonymous functions.
 
