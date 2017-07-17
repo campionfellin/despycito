@@ -27,7 +27,7 @@ this is how we fizzbuzz n
     if i >= n:
       termina
 
-    es i i+1
+    sube i
     otra
 
   favorito verdad
