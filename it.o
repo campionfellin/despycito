@@ -1,9 +1,13 @@
 #Despacito
 
+
+
 dime "Hola todas!"
 
 
 this is how we fizzbuzz n
+
+  feat time
 
   es i 0
 
@@ -21,6 +25,9 @@ this is how we fizzbuzz n
       termina
 
     sube i
+
+    despacito 1
+    
     otra
 
   favorito verdad
@@ -46,7 +53,7 @@ this is how we fibonacci n
   favorito acc1 
 do it
 
-dime fizzbuzz despacito 10
+dime fizzbuzz vale 10
 
-dime fibonacci despacito 10
+dime fibonacci vale 10
 

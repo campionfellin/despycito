@@ -24,10 +24,13 @@ k = {
     "print"         :   r"dime (?P<print>.+)",
     "true"          :   r"(?P<true>verdad)",
     "false"         :   r"(?P<false>falso)",
-    "function"      :   r"(?P<function>\w+) despacito (?P<args>[\w ]*)\n",
+    "slowly"        :   r"despacito (?P<slowly>\w*)",
+    "function"      :   r"(?P<function>\w+) vale (?P<args>[\w ]*)\n",
 }
 
 def replace(p):
+
+    #print(k["import"])
 
     subs = [
         (k["true"],     r"True"),
@@ -38,6 +41,7 @@ def replace(p):
         (k["++"],       r"\g<value> = \g<value> + 1"),
         (k["function"], r"\g<function>(\g<args>)"),
         (k["print"],    r"print(\g<print>)"),
+        (k["slowly"],   r"time.sleep(\g<slowly>)"),
         (k["break"],    r"break"),
     ]
 
@@ -47,7 +51,7 @@ def replace(p):
         p = re.sub(k["loops"],  r"while True:\n \g<loop>", p, flags=re.DOTALL)
         p = re.sub(k["def"],    r"def \g<func_name>(\g<args>):\n \g<body>", p, flags=re.DOTALL)
     
-    print(p)
+    #print(p)
     return p
 
 def parse_v2(program):
